@@ -1,34 +1,26 @@
-body{
-   background-color: black;}
+.movies{
+   border-collapse: collapse;
+   margin: 25px 0;
+   font-size: 0.9cm;
+   min-width: 400px;
+}
 
-h1{
-   color: aquamarine;
-   font-family: Arial, Helvetica, sans-serif;
-   padding-left: 1cm;}
+.movies th{
+   background-color:   rgb(255, 233, 182);
+   color: rgb(0, 0, 0);
+   text-align: left;
+   font-weight: bold; 
+}
 
-p{
-  color: antiquewhite;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-left: 2cm;}
+.movies th,
+.movies td{
+   padding: 12px 15px;
+}
 
-td{
-   color: antiquewhite;}
+.movies tr{
+   border-bottom: 1px solid #000000;
+}
 
-a{
-  font-family: Arial, Helvetica, sans-serif;}
-
-img{
-    padding-left: 2cm;}
-
-table{
-      font-family: Arial, Helvetica, sans-serif;
-      border: 1px solid #1A2929;
-      border-collapse: collapse;
-      }
-
-th{
-   color: black;
-   background-color: aquamarine;}
-
-tr:hover{
-         background-color: rgb(0, 127, 247);}
+.movies tbody tr :nth-last-of-type(odd) {
+   background-color: rgb(255, 233, 182);
+}
